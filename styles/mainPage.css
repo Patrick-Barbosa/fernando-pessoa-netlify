@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100;900&family=Titillium+Web:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-color: #f4d35e;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-bottom: 11em;
+}
+
+#firstContainer {
+    display: block;
+    width: 36%;
+    height: 892px;
+    text-align: right;
+}
+
+#photo {
+    position: relative;
+    top: 92px;
+    width: 82%;
+    height: 90%;
+    border: 2px solid #39393a;
+}
+
+#secondContainer {
+    flex: 1 1 892;
+    height: 892px;
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px 0px 50px;
+}
+
+#titlePage {
+    height: 100px;
+    width: auto;
+    margin: 103px auto 80px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+#sectionOne {
+    position: relative;
+    width: 100%;
+    height: 10em;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 2em;
+    font-family: 'Titillium Web', sans-serif;
+    border-bottom: 5px solid #39393a;
+}
+
+#sectionTwo {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    font-size: 2em;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 79px auto 0;
+}
+
+nav {
+    height: auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10em;
+}
+
+#navList {
+    height: auto;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.list-group-item {
+    font-size: 40px;
+    text-align: center;
+    background-color: #1e1e24;
+    color: #fff8f0;
+}
+
+.list-group-item:hover {
+    background-color: #fff8f0;
+    color: #1e1e24;
+    transition: .7s;
+}
+
+#svgIcons {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.svgClass {
+    width: 70px;
+    height: 70px;
+    margin-left: 4em;
+}
+
+#firstIcon {
+    margin-left: 0;
+}
+
+footer {
+    width: 100%;
+    display: block;
+}
+
+#contactFooter {
+    text-align: center;
+    font-size: 6em;
+}
+
+#copyright {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #f2bb05;
+    margin-bottom: 0;
+}
